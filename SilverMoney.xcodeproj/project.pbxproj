@@ -35,7 +35,7 @@
 		CB4EBD2129F0C89800BB216A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/SilverMoney.plist; sourceTree = "<group>"; };
 		CB4EBD2229F0C89800BB216A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/SilverMoney.plist; sourceTree = "<group>"; };
 		CB541C1729D8C28600FAD146 /* ContentCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCategoryView.swift; sourceTree = "<group>"; };
-		CB63C0232A3AC97200A52640 /* SilverMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilverMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB63C0232A3AC97200A52640 /* SilverMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SilverMoney.app; path = "/Users/georgeus/Dropbox/SilverMoney_new_v000_001/build/Debug-iphoneos/SilverMoney.app"; sourceTree = "<absolute>"; };
 		CB63C0242A3AD46A00A52640 /* ContentItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentItemView.swift; sourceTree = "<group>"; };
 		CB66A396297C4B6500B1124F /* AView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AView.swift; sourceTree = "<group>"; };
 		CB69F6BD2979BE4D00039968 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				CB69F6BA2979BE4D00039968 /* SilverMoney */,
-				CB63C0232A3AC97200A52640 /* SilverMoney.app */,
 			);
 			sourceTree = "<group>";
 		};
