@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="SilverMoney/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.3" build-num="14E222b"/>
+    </header>
+    <body>
+      <trans-unit id=" &lt; " xml:space="preserve">
+        <source> &lt; </source>
+        <target> &lt; </target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%@" xml:space="preserve">
+        <source>%@</source>
+        <target>%@</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%@ " xml:space="preserve">
+        <source>%@ </source>
+        <target>%@ </target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%d" xml:space="preserve">
+        <source>%d</source>
+        <target>%d</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%d  %@" xml:space="preserve">
+        <source>%d  %@</source>
+        <target>%d  %@</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%lld" xml:space="preserve">
+        <source>%lld</source>
+        <target>%lld</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="(0 – самый низкий, 10 – самый высокий)" xml:space="preserve">
+        <source>(0 – самый низкий, 10 – самый высокий)</source>
+        <target>(0 – самый низкий, 10 – самый высокий)</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="(введите новое название в поле ниже, и выберите подтвердить изменения для ... )" xml:space="preserve">
+        <source>(введите новое название в поле ниже, и выберите подтвердить изменения для ... )</source>
+        <target>(введите новое название в поле ниже, и выберите подтвердить изменения для ... )</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="(введите сумму, при превшении которой, цвет суммы изменится на красный)" xml:space="preserve">
+        <source>(введите сумму, при превшении которой, цвет суммы изменится на красный)</source>
+        <target>(введите сумму, при превшении которой, цвет суммы изменится на красный)</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="+" xml:space="preserve">
+        <source>+</source>
+        <target>+</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="-" xml:space="preserve">
+        <source>-</source>
+        <target>-</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="0" xml:space="preserve">
+        <source>0</source>
+        <target>0</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="1" xml:space="preserve">
+        <source>1</source>
+        <target>1</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="2" xml:space="preserve">
+        <source>2</source>
+        <target>2</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="3" xml:space="preserve">
+        <source>3</source>
+        <target>3</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="4" xml:space="preserve">
+        <source>4</source>
+        <target>4</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="5" xml:space="preserve">
+        <source>5</source>
+        <target>5</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="6" xml:space="preserve">
+        <source>6</source>
+        <target>6</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="7" xml:space="preserve">
+        <source>7</source>
+        <target>7</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="8" xml:space="preserve">
+        <source>8</source>
+        <target>8</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="9" xml:space="preserve">
+        <source>9</source>
+        <target>9</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="&lt;" xml:space="preserve">
+        <source>&lt;</source>
+        <target>&lt;</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="=" xml:space="preserve">
+        <source>=</source>
+        <target>=</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="C" xml:space="preserve">
+        <source>C</source>
+        <target>C</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Delete" xml:space="preserve">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Ok" xml:space="preserve">
+        <source>Ok</source>
+        <target>Ok</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Rub: %d" xml:space="preserve">
+        <source>Rub: %d</source>
+        <target>Rub: %d</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="[!]" xml:space="preserve">
+        <source>[!]</source>
+        <target>[!]</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="[+]" xml:space="preserve">
+        <source>[+]</source>
+        <target>[+]</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="[–]" xml:space="preserve">
+        <source>[–]</source>
+        <target>[–]</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="dsjfhlah" xml:space="preserve">
+        <source>dsjfhlah</source>
+        <target>dsjfhlah</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Ввод" xml:space="preserve">
+        <source>Ввод</source>
+        <target>Ввод</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Внести Расходы" xml:space="preserve">
+        <source>Внести Расходы</source>
+        <target>Внести Расходы</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="ДОБАВИТЬ НОВУЮ КАТЕГОРИЮ" xml:space="preserve">
+        <source>ДОБАВИТЬ НОВУЮ КАТЕГОРИЮ</source>
+        <target>ДОБАВИТЬ НОВУЮ КАТЕГОРИЮ</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Доходы" xml:space="preserve">
+        <source>Доходы</source>
+        <target>Доходы</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Записать доходы" xml:space="preserve">
+        <source>Записать доходы</source>
+        <target>Записать доходы</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Изменить название категории" xml:space="preserve">
+        <source>Изменить название категории</source>
+        <target>Изменить название категории</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="КАТЕГОРИЯ" xml:space="preserve">
+        <source>КАТЕГОРИЯ</source>
+        <target>КАТЕГОРИЯ</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Категория:" xml:space="preserve">
+        <source>Категория:</source>
+        <target>Категория:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Комментарий к сумме: %d" xml:space="preserve">
+        <source>Комментарий к сумме: %d</source>
+        <target>Комментарий к сумме: %d</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Настройки" xml:space="preserve">
+        <source>Настройки</source>
+        <target>Настройки</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="ПЕРИОД ПОДСЧЕТА РАСХОДОВ" xml:space="preserve">
+        <source>ПЕРИОД ПОДСЧЕТА РАСХОДОВ</source>
+        <target>ПЕРИОД ПОДСЧЕТА РАСХОДОВ</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Период:" xml:space="preserve">
+        <source>Период:</source>
+        <target>Период:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Предупреждать о превышении трат" xml:space="preserve">
+        <source>Предупреждать о превышении трат</source>
+        <target>Предупреждать о превышении трат</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Приоритет показа категории" xml:space="preserve">
+        <source>Приоритет показа категории</source>
+        <target>Приоритет показа категории</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="РЕДАКТИРОВАТЬ КАТЕГОРИИ РАСХОДОВ" xml:space="preserve">
+        <source>РЕДАКТИРОВАТЬ КАТЕГОРИИ РАСХОДОВ</source>
+        <target>РЕДАКТИРОВАТЬ КАТЕГОРИИ РАСХОДОВ</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Расходы" xml:space="preserve">
+        <source>Расходы</source>
+        <target>Расходы</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="СМОТРЕТЬ РАСХОДЫ" xml:space="preserve">
+        <source>СМОТРЕТЬ РАСХОДЫ</source>
+        <target>СМОТРЕТЬ РАСХОДЫ</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Смотреть (+)" xml:space="preserve">
+        <source>Смотреть (+)</source>
+        <target>Смотреть (+)</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Смотреть (–)" xml:space="preserve">
+        <source>Смотреть (–)</source>
+        <target>Смотреть (–)</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Справка о программе" xml:space="preserve">
+        <source>Справка о программе</source>
+        <target>Справка о программе</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Сумма" xml:space="preserve">
+        <source>Сумма</source>
+        <target>Сумма</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Сумма: " xml:space="preserve">
+        <source>Сумма: </source>
+        <target>Сумма: </target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Удаление категории приведет к удалению связанных с ней данных. Вы можете переименовать категорию." xml:space="preserve">
+        <source>Удаление категории приведет к удалению связанных с ней данных. Вы можете переименовать категорию.</source>
+        <target>Удаление категории приведет к удалению связанных с ней данных. Вы можете переименовать категорию.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Удалить категорию" xml:space="preserve">
+        <source>Удалить категорию</source>
+        <target>Удалить категорию</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Установить предел трат в месяц" xml:space="preserve">
+        <source>Установить предел трат в месяц</source>
+        <target>Установить предел трат в месяц</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Установить предел трат в неделю" xml:space="preserve">
+        <source>Установить предел трат в неделю</source>
+        <target>Установить предел трат в неделю</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Учитывать в общих расходах" xml:space="preserve">
+        <source>Учитывать в общих расходах</source>
+        <target>Учитывать в общих расходах</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="временный перенос из CategView" xml:space="preserve">
+        <source>временный перенос из CategView</source>
+        <target>временный перенос из CategView</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="показать за все время" xml:space="preserve">
+        <source>показать за все время</source>
+        <target>показать за все время</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="показать за год" xml:space="preserve">
+        <source>показать за год</source>
+        <target>показать за год</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="показать за месяц" xml:space="preserve">
+        <source>показать за месяц</source>
+        <target>показать за месяц</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="траты по категории " xml:space="preserve">
+        <source>траты по категории </source>
+        <target>траты по категории </target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="•" xml:space="preserve">
+        <source>•</source>
+        <target>•</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SilverMoney/en.lproj/SilverMoney-InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.3" build-num="14E222b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>SilverMoney</source>
+        <target>SilverMoney</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
