@@ -148,17 +148,17 @@ struct MainView: View {
                     if !trigerAddItem {
                         if dataStrEx == "" {
                             VStack(alignment: .leading){
-                            HStack{
-                                Text(infoWarningInput)
-                                    .font(.title)
-                                    .foregroundColor(Color.gray)
-                                    .lineLimit(4)
-                                    .padding(.top, 20.0)
-                                     
-                                                   Spacer()
-                        }
-                                                    Spacer()
-
+                                HStack{
+                                    Text(infoWarningInput)
+                                        .font(.title)
+                                        .foregroundColor(Color.gray)
+                                        .lineLimit(4)
+                                        .padding(.top, 20.0)
+                                    
+                                    Spacer()
+                                }
+                                Spacer()
+                                
                             }
                         }
                         
