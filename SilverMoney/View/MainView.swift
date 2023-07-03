@@ -10,7 +10,9 @@ import SwiftUI
 
 
 
-// sdfgjhjsdlfg
+
+
+
 struct myColor {
     static let GSilver = Color("GSilver")
     static let Fistashka = Color("GFistashka")
