@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22F66" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="SilverMoney">
+    <entity name="Category" representedClassName="Category" syncable="YES" codeGenerationType="class">
+        <attribute name="amountSpendingPerDay" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="amountSpendingPerMonth" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="amountSpendingPerWeek" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="categoryID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="categoryItemID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="categoryPriority" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="categoryRating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="catNote" optional="YES" attributeType="String"/>
+        <attribute name="catRashSumm" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="catShop" optional="YES" attributeType="String"/>
+        <attribute name="catType" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="catUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="monthThirtyDaysBack" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="monthThirtyDaysBackORStartMounthTrigger" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="onRemove" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="weekSevenDayBack" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="weekSevenDayBackORStartWeekTrigger" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Income" representedClassName="Income" syncable="YES" codeGenerationType="class">
+        <attribute name="incomeNote" optional="YES" attributeType="String"/>
+        <attribute name="incomeTimeStampData" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="ncomeSumm" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="categoryID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="categoryItemID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="catRashSummBool" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="catShop" optional="YES" attributeType="String"/>
+        <attribute name="initCatPreff" optional="YES" attributeType="Boolean" usesScalarValueType="NO"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="mCatsData" optional="YES" attributeType="String" defaultValueString="новая категория"/>
+        <attribute name="noteSummData" optional="YES" attributeType="String"/>
+        <attribute name="summData" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timeStampData" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Prefference" representedClassName="Prefference" syncable="YES" codeGenerationType="class">
+        <attribute name="catPref" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="initPref" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+</model>

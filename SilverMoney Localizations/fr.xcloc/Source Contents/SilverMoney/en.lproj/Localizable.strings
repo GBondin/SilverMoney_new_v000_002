@@ -1,0 +1,195 @@
+/* No comment provided by engineer. */
+"" = "";
+
+/* No comment provided by engineer. */
+" < " = " < ";
+
+/* No comment provided by engineer. */
+"-" = "-";
+
+/* No comment provided by engineer. */
+"(0 – самый низкий, 10 – самый высокий)" = "(0 – самый низкий, 10 – самый высокий)";
+
+/* No comment provided by engineer. */
+"(введите новое название в поле ниже, и выберите подтвердить изменения для ... )" = "(введите новое название в поле ниже, и выберите подтвердить изменения для ... )";
+
+/* No comment provided by engineer. */
+"(введите сумму, при превшении которой, цвет суммы изменится на красный)" = "(введите сумму, при превшении которой, цвет суммы изменится на красный)";
+
+/* No comment provided by engineer. */
+"[–]" = "[–]";
+
+/* No comment provided by engineer. */
+"[!]" = "[!]";
+
+/* No comment provided by engineer. */
+"[+]" = "[+]";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%@ " = "%@ ";
+
+/* No comment provided by engineer. */
+"%d" = "%d";
+
+/* No comment provided by engineer. */
+"%d  %@" = "%d  %@";
+
+/* No comment provided by engineer. */
+"%lld" = "%lld";
+
+/* No comment provided by engineer. */
+"•" = "•";
+
+/* No comment provided by engineer. */
+"+" = "+";
+
+/* No comment provided by engineer. */
+"<" = "<";
+
+/* No comment provided by engineer. */
+"=" = "=";
+
+/* No comment provided by engineer. */
+"0" = "0";
+
+/* No comment provided by engineer. */
+"1" = "1";
+
+/* No comment provided by engineer. */
+"2" = "2";
+
+/* No comment provided by engineer. */
+"3" = "3";
+
+/* No comment provided by engineer. */
+"4" = "4";
+
+/* No comment provided by engineer. */
+"5" = "5";
+
+/* No comment provided by engineer. */
+"6" = "6";
+
+/* No comment provided by engineer. */
+"7" = "7";
+
+/* No comment provided by engineer. */
+"8" = "8";
+
+/* No comment provided by engineer. */
+"9" = "9";
+
+/* No comment provided by engineer. */
+"C" = "C";
+
+/* No comment provided by engineer. */
+"Delete" = "Delete";
+
+/* No comment provided by engineer. */
+"dsjfhlah" = "dsjfhlah";
+
+/* No comment provided by engineer. */
+"Ok" = "Ok";
+
+/* No comment provided by engineer. */
+"Rub: %d" = "Rub: %d";
+
+/* No comment provided by engineer. */
+"Ввод" = "Ввод";
+
+/* No comment provided by engineer. */
+"Внести Расходы" = "Внести Расходы";
+
+/* No comment provided by engineer. */
+"временный перенос из CategView" = "временный перенос из CategView";
+
+/* No comment provided by engineer. */
+"ДОБАВИТЬ НОВУЮ КАТЕГОРИЮ" = "ДОБАВИТЬ НОВУЮ КАТЕГОРИЮ";
+
+/* No comment provided by engineer. */
+"Доходы" = "Доходы";
+
+/* No comment provided by engineer. */
+"Записать доходы" = "Записать доходы";
+
+/* No comment provided by engineer. */
+"Изменить название категории" = "Изменить название категории";
+
+/* No comment provided by engineer. */
+"КАТЕГОРИЯ" = "КАТЕГОРИЯ";
+
+/* No comment provided by engineer. */
+"Категория:" = "Категория:";
+
+/* No comment provided by engineer. */
+"Комментарий к сумме: %d" = "Комментарий к сумме: %d";
+
+/* No comment provided by engineer. */
+"Настройки" = "Настройки";
+
+/* No comment provided by engineer. */
+"ПЕРИОД ПОДСЧЕТА РАСХОДОВ" = "ПЕРИОД ПОДСЧЕТА РАСХОДОВ";
+
+/* No comment provided by engineer. */
+"Период:" = "Период:";
+
+/* No comment provided by engineer. */
+"показать за все время" = "показать за все время";
+
+/* No comment provided by engineer. */
+"показать за год" = "показать за год";
+
+/* No comment provided by engineer. */
+"показать за месяц" = "показать за месяц";
+
+/* No comment provided by engineer. */
+"Предупреждать о превышении трат" = "Предупреждать о превышении трат";
+
+/* No comment provided by engineer. */
+"Приоритет показа категории" = "Приоритет показа категории";
+
+/* No comment provided by engineer. */
+"Расходы" = "Расходы";
+
+/* No comment provided by engineer. */
+"РЕДАКТИРОВАТЬ КАТЕГОРИИ РАСХОДОВ" = "РЕДАКТИРОВАТЬ КАТЕГОРИИ РАСХОДОВ";
+
+/* No comment provided by engineer. */
+"Смотреть (–)" = "Смотреть (–)";
+
+/* No comment provided by engineer. */
+"Смотреть (+)" = "Смотреть (+)";
+
+/* No comment provided by engineer. */
+"СМОТРЕТЬ РАСХОДЫ" = "СМОТРЕТЬ РАСХОДЫ";
+
+/* No comment provided by engineer. */
+"Справка о программе" = "Справка о программе";
+
+/* No comment provided by engineer. */
+"Сумма" = "Сумма";
+
+/* No comment provided by engineer. */
+"Сумма: " = "Сумма: ";
+
+/* No comment provided by engineer. */
+"траты по категории " = "траты по категории ";
+
+/* No comment provided by engineer. */
+"Удаление категории приведет к удалению связанных с ней данных. Вы можете переименовать категорию." = "Удаление категории приведет к удалению связанных с ней данных. Вы можете переименовать категорию.";
+
+/* No comment provided by engineer. */
+"Удалить категорию" = "Удалить категорию";
+
+/* No comment provided by engineer. */
+"Установить предел трат в месяц" = "Установить предел трат в месяц";
+
+/* No comment provided by engineer. */
+"Установить предел трат в неделю" = "Установить предел трат в неделю";
+
+/* No comment provided by engineer. */
+"Учитывать в общих расходах" = "Учитывать в общих расходах";
+

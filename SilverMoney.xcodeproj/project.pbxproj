@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB4EBD8729F0D43B00BB216A /* PrefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8B7645297CDBF20014CA01 /* PrefView.swift */; };
+		CB4EBD8829F0D43B00BB216A /* AView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66A396297C4B6500B1124F /* AView.swift */; };
+		CB4EBD8929F0D43B00BB216A /* SeeAllIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE954FA29EE1DB000475612 /* SeeAllIView.swift */; };
+		CB4EBD8A29F0D43B00BB216A /* ContentCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB541C1729D8C28600FAD146 /* ContentCategoryView.swift */; };
+		CB4EBD8B29F0D43B00BB216A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE16FC5297ECEBB002C5B1F /* SettingView.swift */; };
+		CB4EBD8C29F0D43B00BB216A /* IncomeLookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBD5E329EF530500ABB291 /* IncomeLookView.swift */; };
+		CB4EBD8D29F0D43B00BB216A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69F6BD2979BE4D00039968 /* ContentView.swift */; };
+		CB4EBD8E29F0D43B00BB216A /* IncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43E629297B165100A79B02 /* IncomeView.swift */; };
+		CB4EBD8F29F0D43B00BB216A /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC17EBC29ED47B300E88A6B /* HelpView.swift */; };
+		CB4EBD9029F0D43B00BB216A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB17F51E297A484E00C508E4 /* MainView.swift */; };
+		CB4EBD9129F0D44100BB216A /* SilverMoneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF779A29ED027700104695 /* SilverMoneyApp.swift */; };
+		CB4EBD9229F0D44300BB216A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB17F520297A4B9300C508E4 /* Data.swift */; };
+		CB4EBD9329F0D44600BB216A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB69F6BF2979BE4F00039968 /* Assets.xcassets */; };
+		CB4EBD9429F0D44800BB216A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69F6C42979BE4F00039968 /* Persistence.swift */; };
+		CB4EBD9529F0D44C00BB216A /* SilverMoney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB8FEDAD29ECF8FF007F9CC7 /* SilverMoney.xcdatamodeld */; };
+		CB4EBD9629F0D45300BB216A /* SilverMoney.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB4EBD2029F0C89300BB216A /* SilverMoney.plist */; };
+		CB63C0252A3AD46A00A52640 /* ContentItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB63C0242A3AD46A00A52640 /* ContentItemView.swift */; };
+		CBE1064E2A02EBE8000E8D4B /* DetourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE1064D2A02EBE7000E8D4B /* DetourView.swift */; };
+		CBF10B662A0B83D100309E55 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF10B652A0B83D100309E55 /* TutorialView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB17F51E297A484E00C508E4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CB17F520297A4B9300C508E4 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		CB43E629297B165100A79B02 /* IncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeView.swift; sourceTree = "<group>"; };
+		CB4EBD2129F0C89800BB216A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/SilverMoney.plist; sourceTree = "<group>"; };
+		CB4EBD2229F0C89800BB216A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/SilverMoney.plist; sourceTree = "<group>"; };
+		CB541C1729D8C28600FAD146 /* ContentCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCategoryView.swift; sourceTree = "<group>"; };
+		CB63C0232A3AC97200A52640 /* SilverMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilverMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB63C0242A3AD46A00A52640 /* ContentItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentItemView.swift; sourceTree = "<group>"; };
+		CB66A396297C4B6500B1124F /* AView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AView.swift; sourceTree = "<group>"; };
+		CB69F6BD2979BE4D00039968 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB69F6BF2979BE4F00039968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB69F6C42979BE4F00039968 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CB8B7645297CDBF20014CA01 /* PrefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefView.swift; sourceTree = "<group>"; };
+		CB8FEDAE29ECF8FF007F9CC7 /* CoreDta_v03.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDta_v03.xcdatamodel; sourceTree = "<group>"; };
+		CBC17EBC29ED47B300E88A6B /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		CBC581DB29FA810D00AC69F0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/SilverMoney.plist; sourceTree = "<group>"; };
+		CBCF779A29ED027700104695 /* SilverMoneyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilverMoneyApp.swift; sourceTree = "<group>"; };
+		CBE1064D2A02EBE7000E8D4B /* DetourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetourView.swift; sourceTree = "<group>"; };
+		CBE16FC5297ECEBB002C5B1F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		CBE8E3F729DDCF8B00C614D7 /* INFO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = INFO.md; sourceTree = "<group>"; };
+		CBE954FA29EE1DB000475612 /* SeeAllIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllIView.swift; sourceTree = "<group>"; };
+		CBF10B652A0B83D100309E55 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		CBFBD5E329EF530500ABB291 /* IncomeLookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeLookView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB4EBD2C29F0CD9100BB216A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB4CFDFA298BD38F00627C71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBE1064D2A02EBE7000E8D4B /* DetourView.swift */,
+				CBF10B652A0B83D100309E55 /* TutorialView.swift */,
+				CB66A396297C4B6500B1124F /* AView.swift */,
+				CBE954FA29EE1DB000475612 /* SeeAllIView.swift */,
+				CB8B7645297CDBF20014CA01 /* PrefView.swift */,
+				CB17F51E297A484E00C508E4 /* MainView.swift */,
+				CB69F6BD2979BE4D00039968 /* ContentView.swift */,
+				CB63C0242A3AD46A00A52640 /* ContentItemView.swift */,
+				CB541C1729D8C28600FAD146 /* ContentCategoryView.swift */,
+				CBE16FC5297ECEBB002C5B1F /* SettingView.swift */,
+				CB43E629297B165100A79B02 /* IncomeView.swift */,
+				CBFBD5E329EF530500ABB291 /* IncomeLookView.swift */,
+				CBC17EBC29ED47B300E88A6B /* HelpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB69F6AF2979BE4D00039968 = {
+			isa = PBXGroup;
+			children = (
+				CB69F6BA2979BE4D00039968 /* SilverMoney */,
+				CB63C0232A3AC97200A52640 /* SilverMoney.app */,
+			);
+			sourceTree = "<group>";
+		};
+		CB69F6BA2979BE4D00039968 /* SilverMoney */ = {
+			isa = PBXGroup;
+			children = (
+				CB4EBD2029F0C89300BB216A /* SilverMoney.plist */,
+				CB4CFDFA298BD38F00627C71 /* View */,
+				CBCF779A29ED027700104695 /* SilverMoneyApp.swift */,
+				CB17F520297A4B9300C508E4 /* Data.swift */,
+				CB69F6BF2979BE4F00039968 /* Assets.xcassets */,
+				CB69F6C42979BE4F00039968 /* Persistence.swift */,
+				CB8FEDAD29ECF8FF007F9CC7 /* SilverMoney.xcdatamodeld */,
+				CBE8E3F729DDCF8B00C614D7 /* INFO.md */,
+			);
+			path = SilverMoney;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB4EBD2E29F0CD9100BB216A /* SilverMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4EBD5729F0CD9400BB216A /* Build configuration list for PBXNativeTarget "SilverMoney" */;
+			buildPhases = (
+				CB4EBD2B29F0CD9100BB216A /* Sources */,
+				CB4EBD2C29F0CD9100BB216A /* Frameworks */,
+				CB4EBD2D29F0CD9100BB216A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilverMoney;
+			productName = SilverMoney;
+			productReference = CB63C0232A3AC97200A52640 /* SilverMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB69F6B02979BE4D00039968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CB4EBD2E29F0CD9100BB216A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CB69F6B32979BE4D00039968 /* Build configuration list for PBXProject "SilverMoney" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				ru,
+			);
+			mainGroup = CB69F6AF2979BE4D00039968;
+			productRefGroup = CB69F6AF2979BE4D00039968;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB4EBD2E29F0CD9100BB216A /* SilverMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB4EBD2D29F0CD9100BB216A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4EBD9629F0D45300BB216A /* SilverMoney.plist in Resources */,
+				CB4EBD9329F0D44600BB216A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB4EBD2B29F0CD9100BB216A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4EBD8C29F0D43B00BB216A /* IncomeLookView.swift in Sources */,
+				CB4EBD8E29F0D43B00BB216A /* IncomeView.swift in Sources */,
+				CB4EBD8B29F0D43B00BB216A /* SettingView.swift in Sources */,
+				CB4EBD9029F0D43B00BB216A /* MainView.swift in Sources */,
+				CB4EBD8D29F0D43B00BB216A /* ContentView.swift in Sources */,
+				CB4EBD9129F0D44100BB216A /* SilverMoneyApp.swift in Sources */,
+				CB63C0252A3AD46A00A52640 /* ContentItemView.swift in Sources */,
+				CB4EBD8F29F0D43B00BB216A /* HelpView.swift in Sources */,
+				CB4EBD9429F0D44800BB216A /* Persistence.swift in Sources */,
+				CB4EBD9229F0D44300BB216A /* Data.swift in Sources */,
+				CBE1064E2A02EBE8000E8D4B /* DetourView.swift in Sources */,
+				CB4EBD8A29F0D43B00BB216A /* ContentCategoryView.swift in Sources */,
+				CB4EBD8829F0D43B00BB216A /* AView.swift in Sources */,
+				CBF10B662A0B83D100309E55 /* TutorialView.swift in Sources */,
+				CB4EBD8729F0D43B00BB216A /* PrefView.swift in Sources */,
+				CB4EBD8929F0D43B00BB216A /* SeeAllIView.swift in Sources */,
+				CB4EBD9529F0D44C00BB216A /* SilverMoney.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB4EBD2029F0C89300BB216A /* SilverMoney.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4EBD2129F0C89800BB216A /* en */,
+				CB4EBD2229F0C89800BB216A /* fr */,
+				CBC581DB29FA810D00AC69F0 /* ru */,
+			);
+			name = SilverMoney.plist;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB4EBD5829F0CD9400BB216A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"SilverMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = J7WF9776N4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				MARKETING_VERSION = 0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "George-Bondin.SilverMoney";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CB4EBD5929F0CD9400BB216A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SilverMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = J7WF9776N4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				MARKETING_VERSION = 0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "George-Bondin.SilverMoney";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB69F6C92979BE4F00039968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		CB69F6CA2979BE4F00039968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB4EBD5729F0CD9400BB216A /* Build configuration list for PBXNativeTarget "SilverMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4EBD5829F0CD9400BB216A /* Debug */,
+				CB4EBD5929F0CD9400BB216A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB69F6B32979BE4D00039968 /* Build configuration list for PBXProject "SilverMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB69F6C92979BE4F00039968 /* Debug */,
+				CB69F6CA2979BE4F00039968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB8FEDAD29ECF8FF007F9CC7 /* SilverMoney.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB8FEDAE29ECF8FF007F9CC7 /* CoreDta_v03.xcdatamodel */,
+			);
+			currentVersion = CB8FEDAE29ECF8FF007F9CC7 /* CoreDta_v03.xcdatamodel */;
+			path = SilverMoney.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB69F6B02979BE4D00039968 /* Project object */;
+}

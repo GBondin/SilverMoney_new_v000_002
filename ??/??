@@ -1,0 +1,238 @@
+diff --git a/.DS_Store b/.DS_Store
+index cf0c685..3bfc395 100644
+Binary files a/.DS_Store and b/.DS_Store differ
+diff --git a/SilverMoney/.DS_Store b/SilverMoney/.DS_Store
+index 8c19998..c94bacc 100644
+Binary files a/SilverMoney/.DS_Store and b/SilverMoney/.DS_Store differ
+diff --git a/SilverMoney/SilverMoney.xcodeproj/project.pbxproj b/SilverMoney/SilverMoney.xcodeproj/project.pbxproj
+index 912b12b..8eed647 100644
+--- a/SilverMoney/SilverMoney.xcodeproj/project.pbxproj
++++ b/SilverMoney/SilverMoney.xcodeproj/project.pbxproj
+@@ -23,9 +23,11 @@
+ 		CB4EBD9429F0D44800BB216A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69F6C42979BE4F00039968 /* Persistence.swift */; };
+ 		CB4EBD9529F0D44C00BB216A /* SilverMoney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB8FEDAD29ECF8FF007F9CC7 /* SilverMoney.xcdatamodeld */; };
+ 		CB4EBD9629F0D45300BB216A /* SilverMoney.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB4EBD2029F0C89300BB216A /* SilverMoney.plist */; };
++		CB78DDE32A00BE4200912632 /* SilverMoney.app in Resources */ = {isa = PBXBuildFile; fileRef = CBB4D7FF29F0DB0B006B1D13 /* SilverMoney.app */; };
+ /* End PBXBuildFile section */
+ 
+ /* Begin PBXFileReference section */
++		CB0165242A002C8F0034AA6C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+ 		CB17F51E297A484E00C508E4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+ 		CB17F520297A4B9300C508E4 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+ 		CB43E629297B165100A79B02 /* IncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeView.swift; sourceTree = "<group>"; };
+@@ -59,6 +61,14 @@
+ /* End PBXFrameworksBuildPhase section */
+ 
+ /* Begin PBXGroup section */
++		CB0165212A002C8F0034AA6C /* Frameworks */ = {
++			isa = PBXGroup;
++			children = (
++				CB0165242A002C8F0034AA6C /* SwiftUI.framework */,
++			);
++			name = Frameworks;
++			sourceTree = "<group>";
++		};
+ 		CB4CFDFA298BD38F00627C71 /* View */ = {
+ 			isa = PBXGroup;
+ 			children = (
+@@ -81,6 +91,7 @@
+ 			children = (
+ 				CB69F6BA2979BE4D00039968 /* SilverMoney */,
+ 				CBB4D7FF29F0DB0B006B1D13 /* SilverMoney.app */,
++				CB0165212A002C8F0034AA6C /* Frameworks */,
+ 			);
+ 			sourceTree = "<group>";
+ 		};
+@@ -126,8 +137,8 @@
+ 			isa = PBXProject;
+ 			attributes = {
+ 				BuildIndependentTargetsInParallel = 1;
+-				LastSwiftUpdateCheck = 1420;
+-				LastUpgradeCheck = 1410;
++				LastSwiftUpdateCheck = 1430;
++				LastUpgradeCheck = 1430;
+ 				TargetAttributes = {
+ 					CB4EBD2E29F0CD9100BB216A = {
+ 						CreatedOnToolsVersion = 14.2;
+@@ -142,6 +153,7 @@
+ 				en,
+ 				fr,
+ 				ru,
++				Base,
+ 			);
+ 			mainGroup = CB69F6AF2979BE4D00039968;
+ 			productRefGroup = CB69F6AF2979BE4D00039968;
+@@ -159,6 +171,7 @@
+ 			buildActionMask = 2147483647;
+ 			files = (
+ 				CB4EBD9629F0D45300BB216A /* SilverMoney.plist in Resources */,
++				CB78DDE32A00BE4200912632 /* SilverMoney.app in Resources */,
+ 				CB4EBD9329F0D44600BB216A /* Assets.xcassets in Resources */,
+ 			);
+ 			runOnlyForDeploymentPostprocessing = 0;
+@@ -229,7 +242,7 @@
+ 					"$(inherited)",
+ 					"$(SDKROOT)/usr/lib/swift",
+ 				);
+-				MARKETING_VERSION = 0.3;
++				MARKETING_VERSION = 1;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "George-Bondin.SilverMoney";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+@@ -267,7 +280,7 @@
+ 					"$(inherited)",
+ 					"$(SDKROOT)/usr/lib/swift",
+ 				);
+-				MARKETING_VERSION = 0.3;
++				MARKETING_VERSION = 1;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "George-Bondin.SilverMoney";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+@@ -284,6 +297,7 @@
+ 			isa = XCBuildConfiguration;
+ 			buildSettings = {
+ 				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+ 				CLANG_ANALYZER_NONNULL = YES;
+ 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+ 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+@@ -345,6 +359,7 @@
+ 			isa = XCBuildConfiguration;
+ 			buildSettings = {
+ 				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+ 				CLANG_ANALYZER_NONNULL = YES;
+ 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+ 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+diff --git a/SilverMoney/SilverMoney.xcodeproj/project.xcworkspace/xcuserdata/Georgeus.xcuserdatad/UserInterfaceState.xcuserstate b/SilverMoney/SilverMoney.xcodeproj/project.xcworkspace/xcuserdata/Georgeus.xcuserdatad/UserInterfaceState.xcuserstate
+index 14ab5a2..49675af 100644
+Binary files a/SilverMoney/SilverMoney.xcodeproj/project.xcworkspace/xcuserdata/Georgeus.xcuserdatad/UserInterfaceState.xcuserstate and b/SilverMoney/SilverMoney.xcodeproj/project.xcworkspace/xcuserdata/Georgeus.xcuserdatad/UserInterfaceState.xcuserstate differ
+diff --git a/SilverMoney/SilverMoney.xcodeproj/xcshareddata/xcschemes/SilverMoney.xcscheme b/SilverMoney/SilverMoney.xcodeproj/xcshareddata/xcschemes/SilverMoney.xcscheme
+index fe41a93..6d74561 100644
+--- a/SilverMoney/SilverMoney.xcodeproj/xcshareddata/xcschemes/SilverMoney.xcscheme
++++ b/SilverMoney/SilverMoney.xcodeproj/xcshareddata/xcschemes/SilverMoney.xcscheme
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <Scheme
+-   LastUpgradeVersion = "1420"
++   LastUpgradeVersion = "1430"
+    version = "1.3">
+    <BuildAction
+       parallelizeBuildables = "YES"
+diff --git a/SilverMoney/SilverMoney.xcodeproj/xcshareddata/xcschemes/Smmoney.xcscheme b/SilverMoney/SilverMoney.xcodeproj/xcshareddata/xcschemes/Smmoney.xcscheme
+index 05cc3a7..6776092 100644
+--- a/SilverMoney/SilverMoney.xcodeproj/xcshareddata/xcschemes/Smmoney.xcscheme
++++ b/SilverMoney/SilverMoney.xcodeproj/xcshareddata/xcschemes/Smmoney.xcscheme
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <Scheme
+-   LastUpgradeVersion = "1420"
++   LastUpgradeVersion = "1430"
+    version = "1.3">
+    <BuildAction
+       parallelizeBuildables = "YES"
+diff --git a/SilverMoney/SilverMoney.xcodeproj/xcuserdata/Georgeus.xcuserdatad/xcschemes/xcschememanagement.plist b/SilverMoney/SilverMoney.xcodeproj/xcuserdata/Georgeus.xcuserdatad/xcschemes/xcschememanagement.plist
+index cc3153c..40c9738 100644
+--- a/SilverMoney/SilverMoney.xcodeproj/xcuserdata/Georgeus.xcuserdatad/xcschemes/xcschememanagement.plist
++++ b/SilverMoney/SilverMoney.xcodeproj/xcuserdata/Georgeus.xcuserdatad/xcschemes/xcschememanagement.plist
+@@ -9,6 +9,11 @@
+ 			<key>orderHint</key>
+ 			<integer>1</integer>
+ 		</dict>
++		<key>SilverMoneyWidgetExtension.xcscheme_^#shared#^_</key>
++		<dict>
++			<key>orderHint</key>
++			<integer>2</integer>
++		</dict>
+ 		<key>Smmoney.xcscheme_^#shared#^_</key>
+ 		<dict>
+ 			<key>orderHint</key>
+diff --git a/SilverMoney/SilverMoney/.DS_Store b/SilverMoney/SilverMoney/.DS_Store
+index 720e75f..cf4da98 100644
+Binary files a/SilverMoney/SilverMoney/.DS_Store and b/SilverMoney/SilverMoney/.DS_Store differ
+diff --git a/SilverMoney/SilverMoney/View/CategView.swift b/SilverMoney/SilverMoney/View/CategView.swift
+index 356bc85..1b36a2f 100644
+--- a/SilverMoney/SilverMoney/View/CategView.swift
++++ b/SilverMoney/SilverMoney/View/CategView.swift
+@@ -8,6 +8,7 @@
+ import SwiftUI
+ import CoreData
+ 
++import UserNotifications  // добавления всплывающего меню о просьбе внести расходы
+ 
+ 
+ let periodRaschetM = ["1 день", "1 неделя", "2 недели", "1 месяц", "1 год", "с 1 числа месяца", "С 1 января" ]
+@@ -130,8 +131,8 @@ struct CategView: View {
+ 					Text("Настройки")
+ 						//.padding(.leading, 5.0)
+ 					
+-					Text ("[!]")
+-						.foregroundColor(Color.red)
++				//	Text ("[!]")
++				//		.foregroundColor(Color.red)
+ 					
+ 					Spacer()
+ 					
+@@ -461,6 +462,13 @@ struct CategView: View {
+ 								.multilineTextAlignment(.leading)
+ 								.foregroundColor(Color(.orange))
+ 								.onTapGesture(perform: addItemDefTemp)
++                            
++                            Text("Тест всплывающего окна")
++                             //   .onTapGesture(perform: )
++                                .task{
++                                  addUserNotification()
++                                  //  application()
++                                }
+ 							
+ 							Text("ПЕРИОД ПОДСЧЕТА РАСХОДОВ")
+ 								.padding(.top, 30)
+@@ -705,6 +713,36 @@ struct CategView: View {
+ 		}
+ 		starterCategory = true
+ 	}
++    
++    
++    
++// MARK: работаю над цетром уведомлений
++    // смотри обязательно документацию о предупреждениях
++    //https://developer.apple.com/documentation/usernotifications/asking_permission_to_use_notifications
++    
++    func addUserNotification() {
++        let center = UNUserNotificationCenter.current()
++        center.requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
++            
++     //       if let error = error {
++       //         // Handle the error here.
++       //     }
++            
++            // Enable or disable features based on the authorization.
++            if granted {
++                print("User notifications are allowed.")
++            } else {
++                print("User notifications are not allowed.")
++            }
++        }
++        
++    }
++    
++
++    
++    
++    
++    
+ }
+ struct CategView_Previews: PreviewProvider {
+ 	static var previews: some View {
+diff --git a/SilverMoney/SilverMoney/View/MainView.swift b/SilverMoney/SilverMoney/View/MainView.swift
+index b5937da..718ebc8 100644
+--- a/SilverMoney/SilverMoney/View/MainView.swift
++++ b/SilverMoney/SilverMoney/View/MainView.swift
+@@ -8,7 +8,6 @@
+ import SwiftUI
+ //import Coblueata
+ 
+-
+ struct myColor {
+ 	static let Silver = Color("mySilver")
+ 	static let Fistashka = Color("fistashka")
