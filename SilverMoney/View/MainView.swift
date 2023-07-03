@@ -148,16 +148,18 @@ struct MainView: View {
                     if !trigerAddItem {
                         if dataStrEx == "" {
                             VStack(alignment: .leading){
+                            HStack{
                                 Text(infoWarningInput)
                                     .font(.title)
                                     .foregroundColor(Color.gray)
                                     .lineLimit(4)
                                     .padding(.top, 20.0)
-                                     .task{
-                        //dataStrEx = "введите сумму"
+                                     
+                                                   Spacer()
                         }
+                                                    Spacer()
+
                             }
-                            Spacer()
                         }
                         
                         Spacer()
@@ -206,7 +208,7 @@ struct MainView: View {
                             Label("", systemImage: valutaSymbol)
                         }
                         }
-                        .padding(.trailing, 20.0)
+                        .padding(.trailing, 10.0)
                         Spacer()
                         }
                                                 Spacer()
@@ -216,7 +218,7 @@ struct MainView: View {
                 }
                 .padding(.top, 3.0)
                 .frame(alignment: .leading) //height: 120.0,
-                                                .padding(.horizontal, 10.0)
+                                               .padding(.horizontal, 10.0)
 
             }
             .onAppear () {
