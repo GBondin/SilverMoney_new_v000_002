@@ -8,6 +8,8 @@
 import SwiftUI
 //import Coblueata
 
+
+
 struct myColor {
     static let GSilver = Color("GSilver")
     static let Fistashka = Color("GFistashka")

@@ -11,6 +11,8 @@ import CoreData
 // MARK: разобраться
 var trigerOne: Bool = false
 
+
+
 struct ContentView: View {
     
     @Environment(\.managedObjectContext) private var viewContext
